@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.9.0"
+  version: "0.10.0"
 
 package:
   name: hypothesis-awkward
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/hypothesis-awkward/hypothesis_awkward-${{ version }}.tar.gz
-  sha256: 4d13fafb208ecb20a71909b7953591d094fd4cdeb0f0c62e13074e097d4bb41e
+  sha256: 980a9f2b5116071ca640e8ce7351066f5cbd7dcd34865af8d958765ed4a27907
 
 build:
   number: 0
@@ -35,8 +35,8 @@ tests:
         - hypothesis_awkward.strategies
       pip_check: true
       python_version:
-      - ${{ python_min }}.*
-      - "*"
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Hypothesis strategies for Awkward Array
