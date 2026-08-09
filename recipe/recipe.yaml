@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.19.1"
+  version: "0.20.0"
 
 package:
   name: hypothesis-awkward
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/hypothesis-awkward/hypothesis_awkward-${{ version }}.tar.gz
-  sha256: 49fa207d9c004363472356e6baedf04bf60ae54cded051cdd5e5d15a2f5fcf18
+  sha256: a5a6ff5e48cc3fd76634b831ce992286ec93b8e45d3da63b73b1c5324e8ca085
 
 build:
   number: 0
